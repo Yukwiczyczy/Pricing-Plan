@@ -11,16 +11,20 @@
     <style>
       body {
         font-family: "Sono", sans-serif;
+        padding: 0;
+        margin: 0;
       }
 
       .pricing-container {
         display: flex;
         gap: 20px;
-        height: 90vh;
+        height:100vh;
         justify-content: center;
         align-items: center;
-        background-color: white;
+        background-color: rgb(255, 255, 255);
         gap: 2%;
+        margin: 0;
+        padding: 0;
       }
 
       .pricing-plan {
@@ -71,12 +75,16 @@
         font-size: 1.5rem;
       }
 
-      .standard-container {
-        border: rgb(155, 85, 5) solid 4px;
-      }
-
       .premium-container {
         border: rgb(155, 85, 5) solid 8px;
+      }
+
+      button {
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: rgba(155, 85, 5, 0.651);
       }
       
 
